@@ -1,9 +1,7 @@
-import { ssrRenderAttrs, ssrRenderComponent, ssrRenderSlot } from 'vue/server-renderer';
 import _sfc_main$1 from './NavHeader-DfmO14ax.mjs';
 import _sfc_main$2 from './TheFooter-B7aEpvzH.mjs';
-import { hasInjectionContext, inject, useSSRContext } from 'vue';
 import { t as tryUseNuxtApp } from './server.mjs';
-import { u as useHead$1, h as headSymbol } from '../routes/renderer.mjs';
+import { d as ssrRenderAttrs_1, a as ssrRenderComponent_1, j as ssrRenderSlot_1, u as useHead$1, v as vueExports, k as headSymbol } from '../routes/renderer.mjs';
 import './nebo_logo-Dcha8Ng5.mjs';
 import '@headlessui/vue';
 import '@heroicons/vue/24/outline';
@@ -15,7 +13,12 @@ import 'node:buffer';
 import 'node:fs';
 import 'node:path';
 import 'node:crypto';
-import 'vue-router';
+import '../_/shared.cjs.prod.mjs';
+import 'entities/decode';
+import 'estree-walker';
+import 'source-map-js';
+import '@vue/compiler-ssr';
+import 'node:stream';
 import 'unhead/server';
 import 'devalue';
 import 'unhead/utils';
@@ -25,8 +28,8 @@ function injectHead(nuxtApp) {
   var _a;
   const nuxt = nuxtApp || tryUseNuxtApp();
   return ((_a = nuxt == null ? void 0 : nuxt.ssrContext) == null ? void 0 : _a.head) || (nuxt == null ? void 0 : nuxt.runWithContext(() => {
-    if (hasInjectionContext()) {
-      return inject(headSymbol);
+    if (vueExports.hasInjectionContext()) {
+      return vueExports.inject(headSymbol);
     }
   }));
 }
@@ -50,17 +53,17 @@ const _sfc_main = {
       ]
     });
     return (_ctx, _push, _parent, _attrs) => {
-      _push(`<div${ssrRenderAttrs(_attrs)}>`);
-      _push(ssrRenderComponent(_sfc_main$1, null, null, _parent));
-      ssrRenderSlot(_ctx.$slots, "default", {}, null, _push, _parent);
-      _push(ssrRenderComponent(_sfc_main$2, null, null, _parent));
+      _push(`<div${ssrRenderAttrs_1(_attrs)}>`);
+      _push(ssrRenderComponent_1(_sfc_main$1, null, null, _parent));
+      ssrRenderSlot_1(_ctx.$slots, "default", {}, null, _push, _parent);
+      _push(ssrRenderComponent_1(_sfc_main$2, null, null, _parent));
       _push(`</div>`);
     };
   }
 };
 const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vueExports.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("layouts/custom.vue");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };

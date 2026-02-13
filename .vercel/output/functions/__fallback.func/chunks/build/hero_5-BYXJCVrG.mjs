@@ -1,4 +1,4 @@
-import { a as buildAssetsURL } from '../routes/renderer.mjs';
+import { i as buildAssetsURL } from '../routes/renderer.mjs';
 
 const _imports_1 = "" + buildAssetsURL("hero_1.Bmu2xynK.jpeg");
 const _imports_2 = "" + buildAssetsURL("hero_2.DGsFvli4.jpeg");

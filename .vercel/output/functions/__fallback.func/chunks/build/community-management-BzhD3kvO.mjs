@@ -1,6 +1,5 @@
-import { ref, computed, mergeProps, unref, useSSRContext } from 'vue';
-import { ssrRenderAttrs, ssrInterpolate, ssrRenderList, ssrRenderComponent, ssrRenderAttr } from 'vue/server-renderer';
 import { _ as _export_sfc } from './server.mjs';
+import { v as vueExports, d as ssrRenderAttrs_1, g as ssrInterpolate_1, f as ssrRenderList_1, a as ssrRenderComponent_1, e as ssrRenderAttr_1 } from '../routes/renderer.mjs';
 import '../_/nitro.mjs';
 import 'node:http';
 import 'node:https';
@@ -9,12 +8,16 @@ import 'node:buffer';
 import 'node:fs';
 import 'node:path';
 import 'node:crypto';
-import '../routes/renderer.mjs';
+import '../_/shared.cjs.prod.mjs';
+import 'entities/decode';
+import 'estree-walker';
+import 'source-map-js';
+import '@vue/compiler-ssr';
+import 'node:stream';
 import 'unhead/server';
 import 'devalue';
 import 'unhead/utils';
 import 'unhead/plugins';
-import 'vue-router';
 
 const _sfc_main$1 = {
   __name: "CommunityMemberCard",
@@ -30,9 +33,9 @@ const _sfc_main$1 = {
   },
   setup(__props) {
     return (_ctx, _push, _parent, _attrs) => {
-      _push(`<div${ssrRenderAttrs(mergeProps({ class: "member-card-wrapper group" }, _attrs))} data-v-019088eb><div class="relative mb-6" data-v-019088eb><div class="photo-circle w-40 h-40 rounded-full overflow-hidden ring-4 ring-brand-border group-hover:ring-brand-accent transition-[ring-color] duration-300" data-v-019088eb><img${ssrRenderAttr("src", __props.member.photo)}${ssrRenderAttr("alt", __props.member.name)} class="w-full h-full object-cover transform transition-transform duration-300 ease-out group-hover:scale-110" data-v-019088eb></div></div><div class="mb-3" data-v-019088eb><span class="inline-block text-brand-muted text-xs font-semibold px-4 py-2 rounded-lg border border-brand-border max-w-xs text-center" data-v-019088eb>${ssrInterpolate(__props.member.role)}</span></div><p class="text-xs font-semibold text-brand-muted text-center" data-v-019088eb>${ssrInterpolate(__props.member.alias)}</p><h4 class="text-lg font-bold text-brand-text text-center" data-v-019088eb>${ssrInterpolate(__props.member.name)}</h4><p class="text-sm font-semibold text-brand-accent text-center mt-2 bg-brand-accent/10 px-3 py-1 rounded-md" data-v-019088eb> NRA: ${ssrInterpolate(__props.member.nra)}</p>`);
+      _push(`<div${ssrRenderAttrs_1(vueExports.mergeProps({ class: "member-card-wrapper group" }, _attrs))} data-v-019088eb><div class="relative mb-6" data-v-019088eb><div class="photo-circle w-40 h-40 rounded-full overflow-hidden ring-4 ring-brand-border group-hover:ring-brand-accent transition-[ring-color] duration-300" data-v-019088eb><img${ssrRenderAttr_1("src", __props.member.photo)}${ssrRenderAttr_1("alt", __props.member.name)} class="w-full h-full object-cover transform transition-transform duration-300 ease-out group-hover:scale-110" data-v-019088eb></div></div><div class="mb-3" data-v-019088eb><span class="inline-block text-brand-muted text-xs font-semibold px-4 py-2 rounded-lg border border-brand-border max-w-xs text-center" data-v-019088eb>${ssrInterpolate_1(__props.member.role)}</span></div><p class="text-xs font-semibold text-brand-muted text-center" data-v-019088eb>${ssrInterpolate_1(__props.member.alias)}</p><h4 class="text-lg font-bold text-brand-text text-center" data-v-019088eb>${ssrInterpolate_1(__props.member.name)}</h4><p class="text-sm font-semibold text-brand-accent text-center mt-2 bg-brand-accent/10 px-3 py-1 rounded-md" data-v-019088eb> NRA: ${ssrInterpolate_1(__props.member.nra)}</p>`);
       if (__props.member.subtitle) {
-        _push(`<p class="text-sm text-brand-muted text-center mt-1" data-v-019088eb>${ssrInterpolate(__props.member.subtitle)}</p>`);
+        _push(`<p class="text-sm text-brand-muted text-center mt-1" data-v-019088eb>${ssrInterpolate_1(__props.member.subtitle)}</p>`);
       } else {
         _push(`<!---->`);
       }
@@ -42,7 +45,7 @@ const _sfc_main$1 = {
 };
 const _sfc_setup$1 = _sfc_main$1.setup;
 _sfc_main$1.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vueExports.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/CommunityMemberCard.vue");
   return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
 };
@@ -51,7 +54,7 @@ const _sfc_main = {
   __name: "community-management",
   __ssrInlineRender: true,
   setup(__props) {
-    const members = ref([
+    const members = vueExports.ref([
       {
         id: 1,
         alias: "Wa Haji",
@@ -237,25 +240,25 @@ const _sfc_main = {
         photo: "/assets/images/members/ali.png"
       }
     ]);
-    const uniqueRoles = computed(() => {
+    const uniqueRoles = vueExports.computed(() => {
       const roles = members.value.map((m) => m.role);
       return [...new Set(roles)];
     });
     return (_ctx, _push, _parent, _attrs) => {
       const _component_community_member_card = __nuxt_component_0;
-      _push(`<div${ssrRenderAttrs(mergeProps({ class: "min-h-screen py-12 px-4 sm:px-6 lg:px-8 mt-20" }, _attrs))}><div class="max-w-6xl mx-auto mb-16 text-center"><h1 class="text-4xl sm:text-5xl font-bold text-brand-text mb-4"> Struktur Kepengurusan </h1><p class="text-xl font-semibold text-brand-accent mb-4"> Periode 2026 - 2028 </p><div class="h-1 w-24 bg-brand-accent mx-auto mb-6"></div><p class="text-lg text-brand-muted max-w-3xl mx-auto"> Berikut adalah struktur kepengurusan NEBO pusat, yang terdiri dari ${ssrInterpolate(unref(members).length)} anggota yang berdedikasi dengan visi dan misi membangun untuk bersama. </p></div><div class="max-w-6xl mx-auto mb-16"><div class="bg-brand-surface rounded-lg border border-brand-border p-8"><div class="flex items-center gap-4 mb-4"><div><h2 class="text-2xl font-bold text-brand-text">NEBO PUSAT</h2><p class="text-brand-accent font-semibold">${ssrInterpolate(unref(members).length)} Anggota Kepengurusan </p></div></div><p class="text-brand-muted leading-relaxed"> Tim kepengurusan NEBO dipenuhi sosok-sosok energik yang siap melaju bersama membesarkan nama NEBO INDONESIA. Setiap anggota membawa keahlian unik, menyatukan langkah, dan menggerakkan komunitas agar terus maju dan berkembang. </p></div></div><div class="max-w-6xl mx-auto"><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12"><!--[-->`);
-      ssrRenderList(unref(members), (member) => {
+      _push(`<div${ssrRenderAttrs_1(vueExports.mergeProps({ class: "min-h-screen py-12 px-4 sm:px-6 lg:px-8 mt-20" }, _attrs))}><div class="max-w-6xl mx-auto mb-16 text-center"><h1 class="text-4xl sm:text-5xl font-bold text-brand-text mb-4"> Struktur Kepengurusan </h1><p class="text-xl font-semibold text-brand-accent mb-4"> Periode 2026 - 2028 </p><div class="h-1 w-24 bg-brand-accent mx-auto mb-6"></div><p class="text-lg text-brand-muted max-w-3xl mx-auto"> Berikut adalah struktur kepengurusan NEBO pusat, yang terdiri dari ${ssrInterpolate_1(vueExports.unref(members).length)} anggota yang berdedikasi dengan visi dan misi membangun untuk bersama. </p></div><div class="max-w-6xl mx-auto mb-16"><div class="bg-brand-surface rounded-lg border border-brand-border p-8"><div class="flex items-center gap-4 mb-4"><div><h2 class="text-2xl font-bold text-brand-text">NEBO PUSAT</h2><p class="text-brand-accent font-semibold">${ssrInterpolate_1(vueExports.unref(members).length)} Anggota Kepengurusan </p></div></div><p class="text-brand-muted leading-relaxed"> Tim kepengurusan NEBO dipenuhi sosok-sosok energik yang siap melaju bersama membesarkan nama NEBO INDONESIA. Setiap anggota membawa keahlian unik, menyatukan langkah, dan menggerakkan komunitas agar terus maju dan berkembang. </p></div></div><div class="max-w-6xl mx-auto"><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12"><!--[-->`);
+      ssrRenderList_1(vueExports.unref(members), (member) => {
         _push(`<div class="bg-brand-slate rounded-xl p-8">`);
-        _push(ssrRenderComponent(_component_community_member_card, { member }, null, _parent));
+        _push(ssrRenderComponent_1(_component_community_member_card, { member }, null, _parent));
         _push(`</div>`);
       });
-      _push(`<!--]--></div></div><div class="max-w-6xl mx-auto mt-16 pt-12 border-t border-brand-border"><div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-center"><div><div class="text-4xl font-bold text-brand-accent">${ssrInterpolate(unref(members).length)}</div><p class="text-brand-muted mt-2">Anggota Kepengurusan</p></div><div><div class="text-4xl font-bold text-brand-accent">${ssrInterpolate(unref(uniqueRoles).length)}</div><p class="text-brand-muted mt-2">Divisi Kepengurusan</p></div></div></div></div>`);
+      _push(`<!--]--></div></div><div class="max-w-6xl mx-auto mt-16 pt-12 border-t border-brand-border"><div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-center"><div><div class="text-4xl font-bold text-brand-accent">${ssrInterpolate_1(vueExports.unref(members).length)}</div><p class="text-brand-muted mt-2">Anggota Kepengurusan</p></div><div><div class="text-4xl font-bold text-brand-accent">${ssrInterpolate_1(vueExports.unref(uniqueRoles).length)}</div><p class="text-brand-muted mt-2">Divisi Kepengurusan</p></div></div></div></div>`);
     };
   }
 };
 const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vueExports.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/community-management.vue");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };
