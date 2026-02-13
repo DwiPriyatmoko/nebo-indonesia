@@ -160,14 +160,14 @@ const members = ref([
 		nra: '018',
 		photo: '/assets/images/members/chikoyz.png',
 	},
-	{
-		id: 12,
-		alias: 'Omben',
-		name: 'Mochamad Alfian Fawzie',
-		role: 'KETUA BIDANG KEGIATAN',
-		nra: '020',
-		photo: '/assets/images/members/omben.png',
-	},
+	// {
+	// 	id: 12,
+	// 	alias: 'Omben',
+	// 	name: 'Mochamad Alfian Fawzie',
+	// 	role: 'KETUA BIDANG KEGIATAN',
+	// 	nra: '020',
+	// 	photo: '/assets/images/members/omben.png',
+	// },
 	{
 		id: 13,
 		alias: 'Egi',
