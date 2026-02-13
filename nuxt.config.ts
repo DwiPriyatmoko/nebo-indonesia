@@ -17,4 +17,7 @@ export default defineNuxtConfig({
 		},
 	},
 	modules: ['nuxt-swiper'],
+	nitro: {
+		preset: 'vercel',
+	},
 });

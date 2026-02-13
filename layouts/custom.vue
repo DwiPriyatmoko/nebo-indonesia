@@ -22,21 +22,7 @@
 	</Html>
 </template>
 
-<script>
-definePageMeta({
-	layout: 'custom',
-});
-
+<script setup>
 import NavHeader from '@/layouts/partials/NavHeader.vue';
 import TheFooter from '@/layouts/partials/TheFooter.vue';
-
-export default {
-	components: {
-		NavHeader,
-		TheFooter,
-	},
-	setup() {
-		return {};
-	},
-};
 </script>
