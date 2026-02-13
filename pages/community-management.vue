@@ -3,7 +3,7 @@
 		<!-- Header Section -->
 		<div class="max-w-6xl mx-auto mb-16 text-center">
 			<h1 class="text-4xl sm:text-5xl font-bold text-brand-text mb-4">
-				Struktur Kepengurusan CHANGES
+				Struktur Kepengurusan NEBO
 			</h1>
 			<p class="text-xl font-semibold text-brand-accent mb-4">
 				Periode 2026 - 2028
