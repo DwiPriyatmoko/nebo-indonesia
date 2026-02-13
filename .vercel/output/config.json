@@ -1,6 +1,25 @@
 {
   "version": 3,
-  "overrides": {},
+  "overrides": {
+    "register/index.html": {
+      "path": "register"
+    },
+    "about/index.html": {
+      "path": "about"
+    },
+    "rules/index.html": {
+      "path": "rules"
+    },
+    "community-management/index.html": {
+      "path": "community-management"
+    },
+    "index.html": {
+      "path": ""
+    },
+    "chapters/jabodetabek/index.html": {
+      "path": "chapters/jabodetabek"
+    }
+  },
   "routes": [
     {
       "headers": {
@@ -43,14 +62,6 @@
     },
     {
       "handle": "filesystem"
-    },
-    {
-      "src": "(?<__isr_route>/__nuxt_error)",
-      "dest": "/__fallback"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/__fallback"
     }
   ]
 }

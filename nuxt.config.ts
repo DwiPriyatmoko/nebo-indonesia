@@ -20,20 +20,8 @@ export default defineNuxtConfig({
 	swiper: {
 		modules: ['autoplay', 'effect-fade', 'pagination'],
 	},
+	ssr: false,
 	nitro: {
-		preset: 'vercel',
-		externals: {
-			inline: [
-				'vue',
-				'vue-bundle-renderer',
-				'@vue/shared',
-				'@vue/server-renderer',
-				'@vue/runtime-core',
-				'@vue/runtime-dom',
-				'@vue/reactivity',
-				'@vue/compiler-dom',
-				'@vue/compiler-core',
-			],
-		},
+		preset: 'vercel-static',
 	},
 });
