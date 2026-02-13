@@ -2,7 +2,6 @@ import { ssrRenderAttrs, ssrRenderAttr } from 'vue/server-renderer';
 import { _ as _imports_1, a as _imports_2, b as _imports_3, c as _imports_4, d as _imports_5 } from './hero_5-BYXJCVrG.mjs';
 import { useSSRContext } from 'vue';
 import '../routes/renderer.mjs';
-import 'vue-bundle-renderer/runtime';
 import '../_/nitro.mjs';
 import 'node:http';
 import 'node:https';

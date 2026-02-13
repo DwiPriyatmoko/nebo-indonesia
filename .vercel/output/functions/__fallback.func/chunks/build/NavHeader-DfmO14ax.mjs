@@ -4,7 +4,6 @@ import { _ as _imports_0 } from './nebo_logo-Dcha8Ng5.mjs';
 import { Dialog, DialogPanel } from '@headlessui/vue';
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline';
 import '../routes/renderer.mjs';
-import 'vue-bundle-renderer/runtime';
 import '../_/nitro.mjs';
 import 'node:http';
 import 'node:https';

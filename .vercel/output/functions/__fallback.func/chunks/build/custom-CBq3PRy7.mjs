@@ -16,7 +16,6 @@ import 'node:fs';
 import 'node:path';
 import 'node:crypto';
 import 'vue-router';
-import 'vue-bundle-renderer/runtime';
 import 'unhead/server';
 import 'devalue';
 import 'unhead/utils';

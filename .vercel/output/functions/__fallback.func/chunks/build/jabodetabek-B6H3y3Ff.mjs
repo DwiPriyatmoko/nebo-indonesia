@@ -3,7 +3,6 @@ import { ssrRenderAttrs, ssrRenderStyle, ssrRenderAttr } from 'vue/server-render
 import { _ as _imports_1, a as _imports_2, b as _imports_3, c as _imports_4, d as _imports_5 } from './hero_5-BYXJCVrG.mjs';
 import { useSSRContext } from 'vue';
 import { c as createWhatsAppMessage, a as createWhatsAppLink, W as WHATSAPP_PHONES } from './whatsapp-BeTQHBEu.mjs';
-import 'vue-bundle-renderer/runtime';
 import '../_/nitro.mjs';
 import 'node:http';
 import 'node:https';

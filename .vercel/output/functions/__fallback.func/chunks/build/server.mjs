@@ -1,5 +1,5 @@
 import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { hasInjectionContext, getCurrentInstance, defineAsyncComponent, defineComponent, h, inject, computed, unref, shallowRef, provide, shallowReactive, ref, Suspense, Fragment, createApp, onErrorCaptured, onServerPrefetch, createVNode, resolveDynamicComponent, reactive, effectScope, mergeProps, withCtx, getCurrentScope, toRef, nextTick, isReadonly, useSSRContext, isRef, isShallow, isReactive, toRaw } from 'vue';
-import { k as parseURL, l as encodePath, m as decodePath, n as hasProtocol, o as isScriptProtocol, i as joinURL, w as withQuery, s as sanitizeStatusCode, q as getContext, $ as $fetch, r as createHooks, f as createError$1, v as defu, x as executeAsync } from '../_/nitro.mjs';
+import { l as parseURL, m as encodePath, n as decodePath, o as hasProtocol, q as isScriptProtocol, k as joinURL, w as withQuery, s as sanitizeStatusCode, r as getContext, $ as $fetch, v as createHooks, h as createError$1, x as defu, y as executeAsync } from '../_/nitro.mjs';
 import { b as baseURL } from '../routes/renderer.mjs';
 import { useRoute as useRoute$1, RouterView, createMemoryHistory, createRouter, START_LOCATION } from 'vue-router';
 import { ssrRenderSuspense, ssrRenderComponent, ssrRenderVNode, ssrRenderAttrs } from 'vue/server-renderer';
@@ -10,7 +10,6 @@ import 'node:buffer';
 import 'node:fs';
 import 'node:path';
 import 'node:crypto';
-import 'vue-bundle-renderer/runtime';
 import 'unhead/server';
 import 'devalue';
 import 'unhead/utils';

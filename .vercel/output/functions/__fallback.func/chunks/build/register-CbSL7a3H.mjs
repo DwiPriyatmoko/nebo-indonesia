@@ -3,7 +3,6 @@ import { _ as _imports_1, a as _imports_2, b as _imports_3, c as _imports_4, d a
 import { c as createWhatsAppMessage, a as createWhatsAppLink, W as WHATSAPP_PHONES } from './whatsapp-BeTQHBEu.mjs';
 import { useSSRContext } from 'vue';
 import '../routes/renderer.mjs';
-import 'vue-bundle-renderer/runtime';
 import '../_/nitro.mjs';
 import 'node:http';
 import 'node:https';

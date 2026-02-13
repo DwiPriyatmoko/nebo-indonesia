@@ -3,7 +3,6 @@ import { ssrRenderAttrs, ssrRenderAttr, ssrRenderList, ssrRenderVNode, ssrInterp
 import { _ as _imports_0 } from './NEBO-DCIsbGwL.mjs';
 import { StarIcon } from '@heroicons/vue/20/solid';
 import '../routes/renderer.mjs';
-import 'vue-bundle-renderer/runtime';
 import '../_/nitro.mjs';
 import 'node:http';
 import 'node:https';
