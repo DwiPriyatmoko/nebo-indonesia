@@ -4,51 +4,69 @@
 		class="relative home-banner w-full h-screen min-h-[600px] max-h-[1000px]"
 	>
 		<div class="w-full h-full" v-if="banners.length > 0">
-			<Swiper
-				:modules="[SwiperAutoplay, SwiperEffectFade, SwiperPagination]"
-				:slides-per-view="1"
-				:space-between="0"
-				:loop="true"
-				effect="fade"
-				:fade-effect="{ crossFade: true }"
-				:speed="1200"
-				:autoplay="{
-					delay: 5000,
-					disableOnInteraction: false,
-				}"
-				:pagination="{
-					clickable: true,
-					el: '.hero-pagination',
-					bulletClass: 'hero-bullet',
-					bulletActiveClass: 'hero-bullet-active',
-				}"
-				@slideChange="onSlideChange"
-				@swiper="onSwiper"
-				class="w-full h-full"
-			>
-				<SwiperSlide
-					v-for="(item, index) in banners"
-					:key="index"
-					class="relative"
+			<ClientOnly>
+				<Swiper
+					:modules="[SwiperAutoplay, SwiperEffectFade, SwiperPagination]"
+					:slides-per-view="1"
+					:space-between="0"
+					:loop="true"
+					effect="fade"
+					:fade-effect="{ crossFade: true }"
+					:speed="1200"
+					:autoplay="{
+						delay: 5000,
+						disableOnInteraction: false,
+					}"
+					:pagination="{
+						clickable: true,
+						el: '.hero-pagination',
+						bulletClass: 'hero-bullet',
+						bulletActiveClass: 'hero-bullet-active',
+					}"
+					@slideChange="onSlideChange"
+					@swiper="onSwiper"
+					class="w-full h-full"
 				>
-					<!-- Background Image with Ken Burns zoom -->
+					<SwiperSlide
+						v-for="(item, index) in banners"
+						:key="index"
+						class="relative"
+					>
+						<!-- Background Image with Ken Burns zoom -->
+						<div class="absolute inset-0 overflow-hidden">
+							<img
+								class="hero-slide-img h-full w-full object-cover scale-105"
+								:src="item.media_path"
+								:alt="item.title || 'NEBO Community'"
+							/>
+						</div>
+
+						<!-- Gradient Overlay -->
+						<div
+							class="absolute inset-0 bg-gradient-to-r from-brand-ink/95 via-brand-ink/60 to-transparent"
+						/>
+						<div
+							class="absolute inset-0 bg-gradient-to-t from-brand-ink/80 via-transparent to-brand-ink/30"
+						/>
+					</SwiperSlide>
+				</Swiper>
+				<template #fallback>
+					<!-- Static fallback for SSR -->
 					<div class="absolute inset-0 overflow-hidden">
 						<img
 							class="hero-slide-img h-full w-full object-cover scale-105"
-							:src="item.media_path"
-							:alt="item.title || 'NEBO Community'"
+							src="/assets/images/sliders/slider_11.jpg"
+							alt="NEBO Community"
+						/>
+						<div
+							class="absolute inset-0 bg-gradient-to-r from-brand-ink/95 via-brand-ink/60 to-transparent"
+						/>
+						<div
+							class="absolute inset-0 bg-gradient-to-t from-brand-ink/80 via-transparent to-brand-ink/30"
 						/>
 					</div>
-
-					<!-- Gradient Overlay -->
-					<div
-						class="absolute inset-0 bg-gradient-to-r from-brand-ink/95 via-brand-ink/60 to-transparent"
-					/>
-					<div
-						class="absolute inset-0 bg-gradient-to-t from-brand-ink/80 via-transparent to-brand-ink/30"
-					/>
-				</SwiperSlide>
-			</Swiper>
+				</template>
+			</ClientOnly>
 
 			<!-- Persistent Content Overlay (outside Swiper for stability) -->
 			<div class="absolute inset-0 z-10 pointer-events-none">
