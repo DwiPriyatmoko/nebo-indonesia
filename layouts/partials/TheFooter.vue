@@ -142,7 +142,7 @@ const navigation = {
 		},
 		{
 			name: 'TikTok',
-			href: 'https://www.tiktok.com/@nebo_official.022?is_from_webapp=1&sender_device=pc',
+			href: 'https://www.tiktok.com/@nebo_idn20',
 			icon: defineComponent({
 				render: () =>
 					h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
