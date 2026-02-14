@@ -1,14 +1,14 @@
 {
   "version": 3,
   "overrides": {
-    "register/index.html": {
-      "path": "register"
-    },
     "about/index.html": {
       "path": "about"
     },
     "rules/index.html": {
       "path": "rules"
+    },
+    "register/index.html": {
+      "path": "register"
     },
     "community-management/index.html": {
       "path": "community-management"
