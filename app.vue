@@ -1,4 +1,6 @@
 <template>
+	<!-- Analytics -->
+	<Analytics />
 	<!-- Layout -->
 	<NuxtLayout :name="layout">
 		<!-- Page -->
@@ -7,5 +9,7 @@
 </template>
 
 <script setup>
+import { Analytics } from '@vercel/analytics/nuxt';
+
 const layout = 'custom';
 </script>
