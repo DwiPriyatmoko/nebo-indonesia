@@ -210,7 +210,7 @@ const members = ref([
 	},
 	{
 		id: 18,
-		alias: 'Ben KW',
+		alias: 'Ben Raya',
 		name: 'Beni Rindayana',
 		role: 'SUB BIDANG PUBLIKASI & DOKUMENTASI',
 		nra: '198',
