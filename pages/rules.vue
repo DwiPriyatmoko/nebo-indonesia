@@ -5,7 +5,7 @@
 			<div class="overflow-hidden py-24 sm:py-32">
 				<div class="mx-auto max-w-7xl px-6 lg:px-8">
 					<div class="max-w-sm m-auto">
-						<img
+						<NuxtImg
 							src="/assets/images/logos/NEBO.PNG"
 							alt="Product screenshot"
 							class="w-full max-w-none md:-ml-4 lg:-ml-0"

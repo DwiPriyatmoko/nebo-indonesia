@@ -42,7 +42,7 @@
 							<div
 								class="group relative overflow-hidden rounded-2xl aspect-[4/3]"
 							>
-								<img
+								<NuxtImg
 									src="/assets/images/hero/hero_1.jpeg"
 									alt="NEBO Community"
 									class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -59,7 +59,7 @@
 							<div
 								class="absolute -bottom-6 -right-6 w-32 sm:w-40 group overflow-hidden rounded-xl shadow-2xl ring-4 ring-brand-ink"
 							>
-								<img
+								<NuxtImg
 									src="/assets/images/hero/hero_2.jpeg"
 									alt="NEBO Event"
 									class="aspect-square w-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -68,7 +68,7 @@
 							<div
 								class="absolute -top-6 -left-6 w-28 sm:w-36 group overflow-hidden rounded-xl shadow-2xl ring-4 ring-brand-ink hidden sm:block"
 							>
-								<img
+								<NuxtImg
 									src="/assets/images/hero/hero_3.jpeg"
 									alt="NEBO Touring"
 									class="aspect-square w-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -254,7 +254,7 @@
 					<!-- Bottom Image Strip -->
 					<div class="mt-20 grid grid-cols-2 sm:grid-cols-4 gap-4">
 						<div class="group relative overflow-hidden rounded-xl aspect-video">
-							<img
+							<NuxtImg
 								src="/assets/images/hero/hero_4.jpeg"
 								alt="NEBO Riders"
 								class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -264,7 +264,7 @@
 							/>
 						</div>
 						<div class="group relative overflow-hidden rounded-xl aspect-video">
-							<img
+							<NuxtImg
 								src="/assets/images/hero/hero_5.jpeg"
 								alt="NEBO Meetup"
 								class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -276,7 +276,7 @@
 						<div
 							class="group relative overflow-hidden rounded-xl aspect-video hidden sm:block"
 						>
-							<img
+							<NuxtImg
 								src="/assets/images/hero/hero_2.jpeg"
 								alt="NEBO Event"
 								class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -288,7 +288,7 @@
 						<div
 							class="group relative overflow-hidden rounded-xl aspect-video hidden sm:block"
 						>
-							<img
+							<NuxtImg
 								src="/assets/images/hero/hero_3.jpeg"
 								alt="NEBO Touring"
 								class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -360,7 +360,7 @@
 						<div
 							class="group relative overflow-hidden rounded-2xl max-w-sm w-full"
 						>
-							<img
+							<NuxtImg
 								src="/assets/images/logos/NEBO.PNG"
 								alt="NEBO Logo"
 								class="w-full object-contain transition-transform duration-500 group-hover:scale-105"
@@ -490,7 +490,7 @@
 								<div
 									class="group relative overflow-hidden rounded-2xl aspect-video mx-auto max-w-md"
 								>
-									<img
+									<NuxtImg
 										src="/assets/images/hero/hero_1.jpeg"
 										alt="NEBO Community"
 										class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -506,7 +506,7 @@
 								<div
 									class="group relative overflow-hidden rounded-2xl aspect-[3/4]"
 								>
-									<img
+									<NuxtImg
 										src="/assets/images/hero/hero_1.jpeg"
 										alt="NEBO Community"
 										class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -519,7 +519,7 @@
 									<div
 										class="group relative overflow-hidden rounded-2xl aspect-square"
 									>
-										<img
+										<NuxtImg
 											src="/assets/images/hero/hero_2.jpeg"
 											alt="NEBO Event"
 											class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -531,7 +531,7 @@
 									<div
 										class="group relative overflow-hidden rounded-2xl aspect-video"
 									>
-										<img
+										<NuxtImg
 											src="/assets/images/hero/hero_3.jpeg"
 											alt="NEBO Touring"
 											class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"

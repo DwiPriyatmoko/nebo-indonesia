@@ -34,7 +34,7 @@
 					>
 						<!-- Background Image with Ken Burns zoom -->
 						<div class="absolute inset-0 overflow-hidden">
-							<img
+							<NuxtImg
 								class="hero-slide-img h-full w-full object-cover scale-105"
 								:src="item.media_path"
 								:alt="item.title || 'NEBO Community'"
@@ -53,7 +53,7 @@
 				<template #fallback>
 					<!-- Static fallback for SSR -->
 					<div class="absolute inset-0 overflow-hidden">
-						<img
+						<NuxtImg
 							class="hero-slide-img h-full w-full object-cover scale-105"
 							src="/assets/images/sliders/slider_11.jpg"
 							alt="NEBO Community"
@@ -159,7 +159,7 @@ const onSlideChange = (swiper) => {
 const banners = [
 	{ media_path: '/assets/images/sliders/slider_11.jpg' },
 	{ media_path: '/assets/images/sliders/slider_3.jpeg' },
-	{ media_path: '/assets/images/sliders/slider_1.jpg' },
 	{ media_path: '/assets/images/sliders/slider_9.jpg' },
+	{ media_path: '/assets/images/sliders/slider_10.jpeg' },
 ];
 </script>

@@ -60,7 +60,7 @@ export default defineNuxtConfig({
 			autoprefixer: {},
 		},
 	},
-	modules: ['nuxt-swiper'],
+	modules: ['nuxt-swiper', '@nuxt/image'],
 	swiper: {
 		modules: ['autoplay', 'effect-fade', 'pagination'],
 	},

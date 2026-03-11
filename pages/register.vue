@@ -214,7 +214,7 @@
 								<div
 									class="group relative overflow-hidden rounded-2xl aspect-video mx-auto max-w-md"
 								>
-									<img
+									<NuxtImg
 										src="/assets/images/hero/hero_1.jpeg"
 										alt="NEBO Community"
 										class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -230,7 +230,7 @@
 								<div
 									class="group relative overflow-hidden rounded-2xl aspect-[3/4]"
 								>
-									<img
+									<NuxtImg
 										src="/assets/images/hero/hero_1.jpeg"
 										alt="NEBO Community"
 										class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -243,7 +243,7 @@
 									<div
 										class="group relative overflow-hidden rounded-2xl aspect-square"
 									>
-										<img
+										<NuxtImg
 											src="/assets/images/hero/hero_2.jpeg"
 											alt="NEBO Event"
 											class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -255,7 +255,7 @@
 									<div
 										class="group relative overflow-hidden rounded-2xl aspect-video"
 									>
-										<img
+										<NuxtImg
 											src="/assets/images/hero/hero_3.jpeg"
 											alt="NEBO Touring"
 											class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -398,7 +398,7 @@
 								<div
 									class="group relative overflow-hidden rounded-2xl aspect-video mx-auto max-w-md"
 								>
-									<img
+									<NuxtImg
 										src="/assets/images/hero/hero_4.jpeg"
 										alt="NEBO Community"
 										class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -415,7 +415,7 @@
 									<div
 										class="group relative overflow-hidden rounded-2xl aspect-square"
 									>
-										<img
+										<NuxtImg
 											src="/assets/images/hero/hero_4.jpeg"
 											alt="NEBO Riders"
 											class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -427,7 +427,7 @@
 									<div
 										class="group relative overflow-hidden rounded-2xl aspect-video"
 									>
-										<img
+										<NuxtImg
 											src="/assets/images/hero/hero_5.jpeg"
 											alt="NEBO Meetup"
 											class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -441,7 +441,7 @@
 									<div
 										class="group relative overflow-hidden rounded-2xl aspect-video"
 									>
-										<img
+										<NuxtImg
 											src="/assets/images/hero/hero_2.jpeg"
 											alt="NEBO Event"
 											class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -453,7 +453,7 @@
 									<div
 										class="group relative overflow-hidden rounded-2xl aspect-square"
 									>
-										<img
+										<NuxtImg
 											src="/assets/images/hero/hero_3.jpeg"
 											alt="NEBO Touring"
 											class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"

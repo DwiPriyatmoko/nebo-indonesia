@@ -5,7 +5,7 @@
 			<div
 				class="photo-circle w-40 h-40 rounded-full overflow-hidden ring-4 ring-brand-border group-hover:ring-brand-accent transition-[ring-color] duration-300"
 			>
-				<img
+				<NuxtImg
 					:src="member.photo"
 					:alt="member.name"
 					class="w-full h-full object-cover transform transition-transform duration-300 ease-out group-hover:scale-110"
