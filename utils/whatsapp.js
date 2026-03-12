@@ -11,7 +11,6 @@ export const createWhatsAppMessage = ({
 	customInstructions = '',
 } = {}) => {
 	const message = `Selamat Datang di ${forumName}!
-
 Halo! Silakan perkenalkan diri dengan format berikut:
 
 Nama Asli: NAMA ANDA (NAMA PANGGILAN)
@@ -19,6 +18,10 @@ Alamat: ALAMAT ANDA
 Kegiatan Sehari-hari: KEGIATAN SEHARI-HARI
 Foto: FOTO SELFIE BARENG MOTOR ANDA (WAJIB)
 ${customInstructions}
+Peraturan dasar komunitas motor NEBO:
+1. Keanggotaan tidak menerima member perempuan
+2. Anggota tidak diperkenankan bergabung di komunitas lain motor NMAX Gen 3 (double komunitas)
+
 Mari kita jalin silaturahmi, menjaga nama baik, dan membawa berkah dalam setiap pertemuan!`;
 
 	return encodeURIComponent(message);
