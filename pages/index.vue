@@ -28,9 +28,11 @@
 						<p
 							class="mt-6 text-lg leading-8 text-brand-muted max-w-3xl mx-auto"
 						>
-							NEBO Indonesia tidak hanya berbagi tentang tips modifikasi dan
-							peningkatan performa, tetapi juga aktif mengadakan kegiatan
-							touring, kopdar, dan berbagai event seru lainnya.
+							NEBO adalah tempat berkumpulnya para rider Yamaha NMAX Neo Turbo
+							dengan semangat yang sama, menikmati perjalanan, berbagi cerita,
+							dan membangun kebersamaan. Lewat touring, kopdar, dan berbagai
+							kegiatan seru, kami tumbuh sebagai komunitas yang solid dan saling
+							terhubung di setiap perjalanan.
 						</p>
 					</div>
 
@@ -90,14 +92,18 @@
 							<h3
 								class="text-2xl sm:text-3xl font-bold text-brand-text mb-6 leading-tight"
 							>
-								Bersama NEBO, rasakan sensasi berkendara yang maksimal
+								Ada cerita disetiap perjalanan kami
 							</h3>
 
 							<p class="text-brand-muted leading-relaxed mb-8">
-								Setiap anggota bisa merasakan sensasi berkendara yang maksimal,
-								sembari memperkuat tali persaudaraan sesama rider Nmax Generasi
-								Tiga. Komunitas yang solid, kegiatan yang seru, dan pengalaman
-								tak terlupakan menanti Anda.
+								Bukan hanya soal sampai tujuan, tapi juga tentang kebersamaan di
+								jalan. Di sini tempat kita berbagi cerita, dan membangun
+								persaudaraan yang kuat.
+							</p>
+							<p class="text-brand-muted leading-relaxed mb-8">
+								Dengan komunitas yang solid, berbagai kegiatan seru, dan momen
+								yang selalu berkesan, NEBO bukan sekadar komunitas, ini adalah
+								tempat di mana kita bertumbuh bersama.
 							</p>
 
 							<!-- Features -->
@@ -171,7 +177,7 @@
 										</svg>
 									</div>
 									<span class="text-sm font-medium text-brand-text"
-										>Tips Modifikasi</span
+										>Tips Motor</span
 									>
 								</div>
 								<div
@@ -205,7 +211,7 @@
 								class="bg-brand-surface/80 backdrop-blur rounded-xl p-6 border border-brand-border text-center lg:text-left"
 							>
 								<p class="font-bold text-brand-text mb-2">
-									Yuk, Gabung Gratis ke NEBO!
+									Mari Menjadi Bagian Dari NEBO Indonesia!
 								</p>
 								<p class="text-xs text-brand-muted mb-4">
 									*Sertakan foto selfie bersama motormu untuk verifikasi
@@ -398,8 +404,8 @@
 							<p
 								class="text-lg text-brand-muted mb-8 leading-relaxed max-w-md mx-auto lg:mx-0"
 							>
-								Bergabunglah sekarang dengan komunitas NMAX! Temukan teman,
-								pengalaman, dan petualangan seru bersama kami. Jadilah bagian
+								Bergabunglah sekarang dengan NEBO Indonesia! Temukan teman,
+								experience, dan petualangan seru bersama kami. Jadilah bagian
 								dari keluarga besar NEBO Indonesia.
 							</p>
 
@@ -438,7 +444,7 @@
 								class="bg-brand-surface rounded-2xl p-6 border border-brand-border text-center lg:text-left"
 							>
 								<p class="font-bold text-brand-text mb-1">
-									Yuk, Gabung Gratis ke NEBO!
+									Yuk, Bergabung dengan NEBO Indonesia!
 								</p>
 								<p class="text-sm text-brand-muted mb-5">
 									*Sertakan foto selfie bersama motormu untuk verifikasi
@@ -589,15 +595,15 @@ const whatsappLinks = {
 
 const missions = [
 	{
-		name: 'Koneksi dengan Sesama Penggemar',
+		name: 'Koneksi dengan Sesama Komunitas',
 		description:
-			'Dapatkan kesempatan untuk bertemu dan berinteraksi dengan para pemilik dan penggemar Yamaha NMAX lainnya. Berbagi pengalaman dan tips modifikasi akan memperkaya pengetahuan Anda tentang motor kesayangan.',
+			'Dapatkan kesempatan untuk bertemu dan berinteraksi dengan para pemilik dan penggemar Yamaha NMAX lainnya. Berbagi pengalaman dan tips akan memperkaya pengetahuan Anda.',
 		icon: StarIcon,
 	},
 	{
-		name: 'Dukungan dan Saran Modifikasi',
+		name: 'Dukungan dan Tips Motor',
 		description:
-			'Anggota NEBO saling membantu dalam hal modifikasi motor. Anda akan mendapatkan saran berharga tentang peningkatan performa dan gaya yang dapat membuat NMAX Anda semakin keren dan bertenaga.',
+			'Anggota NEBO saling membantu dalam tips merawat motor. Anda akan mendapatkan saran berharga tentang perawatan motor yang dapat membuat motor Anda semakin nyaman dan aman untuk digunakan.',
 		icon: StarIcon,
 	},
 	{
@@ -609,13 +615,13 @@ const missions = [
 	{
 		name: 'Akses ke Informasi Terbaru',
 		description:
-			'Dapatkan informasi terkini tentang produk, event, dan tren modifikasi Yamaha NMAX. Jangan lewatkan kesempatan untuk selalu update dan mendapatkan penawaran spesial dari mitra komunitas.',
+			'Dapatkan informasi terkini tentang produk, event, dan tren motor Yamaha NMAX. Jangan lewatkan kesempatan untuk selalu update dan mendapatkan penawaran spesial.',
 		icon: StarIcon,
 	},
 	{
 		name: 'Komunitas yang Ramah dan Inklusif',
 		description:
-			'NEBO adalah tempat di mana semua penggemar NMAX disambut dengan hangat, tanpa memandang pengalaman berkendara atau tingkat modifikasi. Bergabunglah dengan komunitas yang mendukung dan menginspirasi satu sama lain.',
+			'NEBO adalah komunitas yang ramah dan inklusif, di mana semua disambut dengan hangat. Bergabunglah dengan komunitas yang mendukung dan menginspirasi satu sama lain.',
 		icon: StarIcon,
 	},
 ];

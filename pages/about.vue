@@ -33,9 +33,10 @@
 									pertanyaan ini menyimpan kisah sederhana namun penuh makna.
 
 									<br /><br />
-									Semua bermula dari ide seorang penggemar Nmax, Kang Oppie.
-									Dengan semangat kebersamaan, beliau mengajak para pengguna
-									Nmax generasi ketiga untuk berkumpul dalam sebuah grup bernama
+									Semua bermula dari ide seorang penggemar Nmax, Kang
+									<strong class="text-brand-accent">Oppie</strong>. Dengan
+									semangat kebersamaan, beliau mengajak para pengguna Nmax
+									generasi ketiga untuk berkumpul dalam sebuah grup bernama
 									"Nmax Gen 3." Grup ini diciptakan sebagai wadah komunikasi
 									bagi para pengguna, tempat berbagi cerita dan pengalaman
 									tentang sepeda motor kesayangan mereka.
@@ -44,7 +45,10 @@
 									Tidak lama setelah grup terbentuk, kami merencanakan pertemuan
 									pertama untuk bertemu dan mempererat tali silaturahmi.
 									Pertemuan tersebut dihadiri oleh beberapa inisiator utama,
-									yaitu Kang Oppie, Kang Ibnu, Kang Ceceng, Kang Dani. Kami
+									yaitu Kang <strong class="text-brand-accent">Oppie</strong>,
+									Kang <strong class="text-brand-accent">Ibnu</strong>, Kang
+									<strong class="text-brand-accent">Ceceng</strong>, Kang
+									<strong class="text-brand-accent">Dani</strong>. Kami
 									berdiskusi panjang tentang bagaimana membentuk komunitas yang
 									santai, nyaman, dan tidak terlalu banyak aturan. Kami ingin
 									menciptakan ruang yang lepas dari formalitas, tetapi tetap
@@ -59,10 +63,11 @@
 									positif dan persahabatan bagi seluruh anggota komunitas.
 
 									<br /><br />
-									Komunitas NEBO pun resmi didirikan pada tanggal 20 Oktober
-									2024, dengan jumlah anggota awal yang mendaftar sebanyak 15
-									orang. Hari itu menjadi momen bersejarah yang menandai
-									terbentuknya komunitas yang kuat dan penuh semangat.
+									Komunitas NEBO pun resmi didirikan pada tanggal
+									<strong class="text-brand-accent">20 Oktober 2024</strong>,
+									dengan jumlah anggota awal yang mendaftar sebanyak 15 orang.
+									Hari itu menjadi momen bersejarah yang menandai terbentuknya
+									komunitas yang kuat dan penuh semangat.
 
 									<br /><br />
 									Seiring berjalannya waktu, NEBO terus berkembang, menjadi
