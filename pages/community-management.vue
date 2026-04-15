@@ -192,14 +192,14 @@ const members = ref([
 		nra: '058',
 		photo: '/assets/images/members/yudi.png',
 	},
-	{
-		id: 16,
-		alias: 'RG',
-		name: 'Ridwan G',
-		role: 'SUB BIDANG HUKUM & ADVOKASI',
-		nra: '096',
-		photo: '/assets/images/members/ridwan_rg.png',
-	},
+	// {
+	// 	id: 16,
+	// 	alias: 'RG',
+	// 	name: 'Ridwan G',
+	// 	role: 'SUB BIDANG HUKUM & ADVOKASI',
+	// 	nra: '096',
+	// 	photo: '/assets/images/members/ridwan_rg.png',
+	// },
 	{
 		id: 17,
 		alias: 'Mas Mosky',
