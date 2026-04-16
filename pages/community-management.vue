@@ -162,11 +162,11 @@ const members = ref([
 	},
 	// {
 	// 	id: 12,
-	// 	alias: 'Omben',
-	// 	name: 'Mochamad Alfian Fawzie',
+	// 	alias: '#',
+	// 	name: '#',
 	// 	role: 'KETUA BIDANG KEGIATAN',
-	// 	nra: '020',
-	// 	photo: '/assets/images/members/omben.png',
+	// 	nra: '#',
+	// 	photo: '#',
 	// },
 	{
 		id: 13,
@@ -194,11 +194,11 @@ const members = ref([
 	},
 	// {
 	// 	id: 16,
-	// 	alias: 'RG',
-	// 	name: 'Ridwan G',
+	// 	alias: '#',
+	// 	name: '#',
 	// 	role: 'SUB BIDANG HUKUM & ADVOKASI',
-	// 	nra: '096',
-	// 	photo: '/assets/images/members/ridwan_rg.png',
+	// 	nra: '#',
+	// 	photo: '#',
 	// },
 	{
 		id: 17,
