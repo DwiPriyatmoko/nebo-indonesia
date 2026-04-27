@@ -69,6 +69,48 @@
 							</div>
 						</dl>
 					</div>
+					<hr class="mt-10 mb-5 border-brand-border" />
+					<div>
+						<p
+							class="mt-10 text-3xl font-bold tracking-tight text-brand-text sm:text-4xl"
+						>
+							Peraturan Produksi Merchandise
+						</p>
+						<p class="mt-10 text-base leading-7 text-brand-muted lg:max-w-none">
+							Untuk menjaga keseragaman identitas dan kualitas branding
+							komunitas, jika ada
+							<span class="font-semibold text-brand-text">
+								Member atau Chapter
+							</span>
+							yang ingin memproduksi merchandise maka diwajibkan untuk
+							berkoordinasi dan mengikuti peraturan yang ditetapkan oleh
+							pengurus pusat.
+							<span class="font-semibold text-brand-text">
+								Contoh merchandise yang pernah diproduksi oleh NEBO antara lain
+								: "Jaket, Kaos, Hoodie, dll"
+							</span>
+						</p>
+						<dl
+							class="mt-10 max-w-xl space-y-8 text-base leading-7 text-brand-muted lg:max-w-none"
+						>
+							<div
+								v-for="item in merchandise"
+								:key="item.name"
+								class="relative pl-9"
+							>
+								<dt class="inline font-semibold text-brand-text">
+									<component
+										:is="item.icon"
+										class="absolute left-1 top-1 h-5 w-5 text-brand-accent"
+										aria-hidden="true"
+									/>
+									{{ item.name }}
+								</dt>
+								{{ ' ' }}
+								<dd class="inline" v-html="item.description"></dd>
+							</div>
+						</dl>
+					</div>
 				</div>
 			</div>
 		</main>
@@ -158,6 +200,41 @@ const rules = [
 		name: 'Keanggotaan Ganda (NMAX Gen 3) Tidak Diperbolehkan',
 		description:
 			'Anggota resmi NEBO tidak diperkenankan memiliki keanggotaan ganda di komunitas atau klub motor lain dengan produk motor yang sama (sesama pengguna NMAX Gen 3). Namun, jika anggota juga memiliki motor lain seperti XMAX atau Vario, keanggotaan di komunitas motor tersebut diperbolehkan.',
+		icon: StarIcon,
+	},
+];
+const merchandise = [
+	{
+		name: 'Wajib membeli woven',
+		description:
+			'yang sudah pengurus pusat produksi/ siapkan (bidang dana usaha).',
+		icon: StarIcon,
+	},
+	{
+		name: 'Setiap pembuatan kaos, kemeja, jaket, atau sejenisnya yang berlogokan NEBO',
+		description: 'wajib berkoordinaai dengan pengurus  pusat.',
+		icon: StarIcon,
+	},
+	{
+		name: 'Dana woven',
+		description: 'akan masuk ke kas, bukan untuk keuntungan pribadi.',
+		icon: StarIcon,
+	},
+	{
+		name: 'Produksi merchandise',
+		description:
+			'jika berlogo atau bertulisan NEBO dan tidak menggunakan woven resmi yang diterbitkan oleh pengurus pusat, maka pengurus NEBO berhak melarang/menghentikan penjualan dan meminta vendor untuk menarik kembali produknya.',
+		icon: StarIcon,
+	},
+	{
+		name: 'Harga woven',
+		description:
+			'menyesuaikan dengan produk yang di produksi dengan perhitungan presentase.',
+		icon: StarIcon,
+	},
+	{
+		name: 'Aturan produksi merchandise',
+		description: 'ini wajib untuk dilaksanakan dan dipedomani.',
 		icon: StarIcon,
 	},
 ];
