@@ -192,16 +192,8 @@ const members = ref([
 		nra: '058',
 		photo: '/assets/images/members/yudi.png',
 	},
-	// {
-	// 	id: 16,
-	// 	alias: '#',
-	// 	name: '#',
-	// 	role: 'SUB BIDANG HUKUM & ADVOKASI',
-	// 	nra: '#',
-	// 	photo: '#',
-	// },
 	{
-		id: 17,
+		id: 16,
 		alias: 'Mas Mosky',
 		name: 'Dwi Priyatmoko',
 		role: 'KETUA BIDANG HUMAS & IT',
@@ -209,16 +201,15 @@ const members = ref([
 		photo: '/assets/images/members/masmosky.png',
 	},
 	{
-		id: 18,
+		id: 17,
 		alias: 'Ben Raya',
 		name: 'Beni Rindayana',
-		//role: 'SUB BIDANG PUBLIKASI & DOKUMENTASI',
 		role: 'KETUA BIDANG KEGIATAN',
 		nra: '198',
 		photo: '/assets/images/members/benraya.png',
 	},
 	{
-		id: 19,
+		id: 18,
 		alias: 'Dedy',
 		name: 'Dedy Budianto',
 		role: 'KETUA BIDANG DANA USAHA',
@@ -226,7 +217,7 @@ const members = ref([
 		photo: '/assets/images/members/dedy.png',
 	},
 	{
-		id: 20,
+		id: 19,
 		alias: 'AdamNR',
 		name: 'Adam Nugraha',
 		role: 'SUB BIDANG MARCHANDISE & PROMOSI',
@@ -234,7 +225,7 @@ const members = ref([
 		photo: '/assets/images/members/adam.png',
 	},
 	{
-		id: 21,
+		id: 20,
 		alias: 'Rawing',
 		name: 'Raka Kharisma Adhadira',
 		role: 'SUB BIDANG LOGISTIK',
@@ -242,7 +233,7 @@ const members = ref([
 		photo: '/assets/images/members/raka.png',
 	},
 	{
-		id: 22,
+		id: 21,
 		alias: 'Ferry',
 		name: 'Ferry',
 		role: 'SUB BIDANG LOGISTIK',
@@ -250,12 +241,20 @@ const members = ref([
 		photo: '/assets/images/members/ferry.png',
 	},
 	{
-		id: 23,
+		id: 22,
 		alias: 'Ali',
 		name: 'Ali Nurdin',
 		role: 'SUB BIDANG LOGISTIK',
 		nra: '135',
 		photo: '/assets/images/members/ali.png',
+	},
+	{
+		id: 23,
+		alias: 'Dede',
+		name: 'Dede Kurnia',
+		role: 'SUB BIDANG LOGISTIK',
+		nra: '265',
+		photo: '/assets/images/members/dede.png',
 	},
 ]);
 

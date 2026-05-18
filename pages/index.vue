@@ -31,7 +31,7 @@
 							NEBO adalah tempat berkumpulnya para rider Yamaha NMAX Neo Turbo
 							dengan semangat yang sama, menikmati perjalanan, berbagi cerita,
 							dan membangun kebersamaan. Lewat touring, kopdar, dan berbagai
-							kegiatan seru, kami tumbuh sebagai komunitas yang solid dan saling
+							kegiatan seru. Kami tumbuh sebagai komunitas yang solid dan saling
 							terhubung di setiap perjalanan.
 						</p>
 					</div>
