@@ -172,7 +172,7 @@
 									class="flex flex-col sm:flex-row flex-wrap gap-3 justify-center lg:justify-start"
 								>
 									<a
-										:href="whatsappLinks.recruitment4"
+										:href="whatsappLinks.recruitment3"
 										target="_blank"
 										class="inline-flex items-center justify-center gap-2 rounded-lg bg-brand-accent px-4 py-2.5 text-sm font-semibold text-white shadow-lg shadow-brand-accent/25 hover:bg-brand-accent-strong hover:shadow-brand-accent/40 transition-all duration-300"
 									>
@@ -188,7 +188,7 @@
 										Rekrutmen 5
 									</a>
 									<a
-										:href="whatsappLinks.recruitment6"
+										:href="whatsappLinks.recruitment4"
 										target="_blank"
 										class="inline-flex items-center justify-center gap-2 rounded-lg bg-brand-accent px-4 py-2.5 text-sm font-semibold text-white shadow-lg shadow-brand-accent/25 hover:bg-brand-accent-strong hover:shadow-brand-accent/40 transition-all duration-300"
 									>
@@ -372,7 +372,7 @@
 										Rekrutmen 7
 									</a>
 									<a
-										:href="whatsappLinks.recruitment3"
+										:href="whatsappLinks.recruitment5"
 										target="_blank"
 										class="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-accent px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-brand-accent/25 hover:bg-brand-accent-strong hover:shadow-brand-accent/40 hover:-translate-y-0.5 transition-all duration-300"
 									>
@@ -486,20 +486,24 @@ import {
 const registerMessage = createWhatsAppMessage();
 
 const whatsappLinks = {
-	recruitment4: createWhatsAppLink(
-		WHATSAPP_PHONES.RECRUITMENT_4,
-		registerMessage
-	),
-	recruitment6: createWhatsAppLink(
-		WHATSAPP_PHONES.RECRUITMENT_6,
-		registerMessage
-	),
 	recruitment1: createWhatsAppLink(
 		WHATSAPP_PHONES.RECRUITMENT_1,
 		registerMessage
 	),
+	recruitment2: createWhatsAppLink(
+		WHATSAPP_PHONES.RECRUITMENT_2,
+		registerMessage
+	),
 	recruitment3: createWhatsAppLink(
 		WHATSAPP_PHONES.RECRUITMENT_3,
+		registerMessage
+	),
+	recruitment4: createWhatsAppLink(
+		WHATSAPP_PHONES.RECRUITMENT_4,
+		registerMessage
+	),
+	recruitment5: createWhatsAppLink(
+		WHATSAPP_PHONES.RECRUITMENT_5,
 		registerMessage
 	),
 };
