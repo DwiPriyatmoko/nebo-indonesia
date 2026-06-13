@@ -160,14 +160,14 @@ const members = ref([
 		nra: '018',
 		photo: '/assets/images/members/chikoyz.png',
 	},
-	// {
-	// 	id: 12,
-	// 	alias: '#',
-	// 	name: '#',
-	// 	role: 'KETUA BIDANG KEGIATAN',
-	// 	nra: '#',
-	// 	photo: '#',
-	// },
+	{
+		id: 12,
+		alias: 'Haji Racing',
+		name: 'Shobar Al-Busthomi',
+		role: 'SUB BIDANG HUKUM & ADVOKASI',
+		nra: '185',
+		photo: '/assets/images/members/sobar.png',
+	},
 	{
 		id: 13,
 		alias: 'Egi',
