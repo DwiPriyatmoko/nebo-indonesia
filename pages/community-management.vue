@@ -184,14 +184,14 @@ const members = ref([
 		nra: '155',
 		photo: '/assets/images/members/beka.png',
 	},
-	{
-		id: 15,
-		alias: 'Yudi',
-		name: 'Yudi Abdul Rohim',
-		role: 'KETUA BIDANG HUKUM & ADVOKASI',
-		nra: '058',
-		photo: '/assets/images/members/yudi.png',
-	},
+	// {
+	// 	id: 15,
+	// 	alias: 'Yudi',
+	// 	name: 'Yudi Abdul Rohim',
+	// 	role: 'KETUA BIDANG HUKUM & ADVOKASI',
+	// 	nra: '058',
+	// 	photo: '/assets/images/members/yudi.png',
+	// },
 	{
 		id: 16,
 		alias: 'Mas Mosky',
