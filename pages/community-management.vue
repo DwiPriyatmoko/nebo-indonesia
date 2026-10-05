@@ -248,14 +248,14 @@ const members = ref([
 		nra: '135',
 		photo: '/assets/images/members/ali.png',
 	},
-	// {
-	// 	id: 23,
-	// 	alias: 'Dede',
-	// 	name: 'Dede Kurnia',
-	// 	role: 'SUB BIDANG LOGISTIK',
-	// 	nra: '265',
-	// 	photo: '/assets/images/members/dede.png',
-	// },
+	{
+		id: 23,
+		alias: 'Cepi',
+		name: 'Cepi',
+		role: 'SUB BIDANG KEGIATAN',
+		nra: '108',
+		photo: '/assets/images/members/cepi.png',
+	},
 ]);
 
 const uniqueRoles = computed(() => {
