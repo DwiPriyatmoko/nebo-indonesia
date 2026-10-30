@@ -186,11 +186,11 @@ const members = ref([
 	},
 	// {
 	// 	id: 15,
-	// 	alias: 'Yudi',
-	// 	name: 'Yudi Abdul Rohim',
-	// 	role: 'KETUA BIDANG HUKUM & ADVOKASI',
-	// 	nra: '058',
-	// 	photo: '/assets/images/members/yudi.png',
+	// 	alias: 'ESA',
+	// 	name: 'Esa',
+	// 	role: 'SUB BIDANG HUKUM & ADVOKASI',
+	// 	nra: '543',
+	// 	photo: '/assets/images/members/esa.png',
 	// },
 	{
 		id: 16,
@@ -255,6 +255,22 @@ const members = ref([
 		role: 'SUB BIDANG KEGIATAN',
 		nra: '108',
 		photo: '/assets/images/members/cepi.png',
+	},
+	{
+		id: 24,
+		alias: 'Agung Kumis',
+		name: 'Agung Pratama',
+		role: 'SUB BIDANG SOSIAL MEDIA',
+		nra: '070',
+		photo: '/assets/images/members/agung.png',
+	},
+	{
+		id: 24,
+		alias: 'Dede Kurnia',
+		name: 'Dede',
+		role: 'SUB BIDANG LOGISTIK',
+		nra: '256',
+		photo: '/assets/images/members/dede.png',
 	},
 ]);
 
